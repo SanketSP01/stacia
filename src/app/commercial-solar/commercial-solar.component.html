@@ -1,0 +1,104 @@
+<div class="container">
+    <br>
+    <div class="row">
+        <div class="col imgs">
+            <img class="" src="/assets/CommercialSolar.png" alt="image" width="500" height="260">
+        </div>
+
+        <div class="col">
+            <h4><b>Our Solar System Is Actually A Wild Frontier, <br>
+                Teeming With Different, Diverse Places: <br>
+                Planets And Moons, Millions of Objects of <br>
+                Ice And Rock.
+                </b></h4>
+            <p>
+                Experience in designing systems from 20kW up several hundred <br>
+                kW in this sector. We provide detailed commercial design sets <br>
+                compatible to the codes.
+            </p>
+            <h6><b id="textcolor">Download checklist >></b></h6>
+        </div>
+
+    </div>
+    <br>
+  
+    <div class="flex-container">
+        <div class="row">
+            <div class="col-3">
+                <div class=" card">
+                    <img class="" src="/assets/Collaboratewithicon.png" alt="image" width="45" height="30">
+                    <h6><b>Proposal Drawing</b></h6>
+                    <p>We provide the customized<br>
+                        proposal design service</p>
+                    <h6 id="textcolor"> <a type="button" (click)="openModal(template)"><b> Know More >></b></a></h6>
+                </div>
+            </div>
+
+
+            <div class="col-3">
+                <div class=" card">
+                    <img class="" src="/assets/Permiticon.png" alt="image" width="45" height="30">
+                    <h6><b>Permit Plan</b></h6>
+                    <p>We make the efficient<br>
+                        Permit plan design.
+                    </p>
+                    <h6 id="textcolor"> <a type="button" (click)="openModal(template)"><b> Know More >></b></a></h6>
+                </div>
+            </div>
+
+
+
+            <div class="col-3">
+                <div class="card">
+                    <img class="" src="/assets/Stampingicon.png" alt="image" width="45" height="30">
+                    <h6><b>Stamping</b></h6>
+                    <p>We provide the stamping as <br>
+                        per the requirements</p>
+                        <h6 id="textcolor"> <a type="button" (click)="openModal(template)"><b> Know More >></b></a></h6>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<ng-template #template>
+    <div class="container mt-2 ">
+        
+        <div class="modal-header">
+            <h4 class="modal-title pull-left"><b>PROPOSAL DRAWING</b></h4>
+            <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+                <span aria-hidden="true">×</span>
+            </button>
+        </div>
+        <div class="modal-body">
+
+            <img class="" src="/assets/ProposalDrawing.png" alt="image" width="500" height="260">
+           <b>
+            <ul>
+                <li>Single/Three Line Diagram</li>
+                <li> Preliminary Solar Assessment (PSA)</li>
+                <li>Initial Roof and Array Sketch</li>
+                <li>Shading Analysis</li>
+                <li> Calculation of ROI</li>
+                <li> PR estimate using industry leading software like Aurora, Helioscope, PVSyst, etc.</li>
+            </ul>
+        </b>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" (click)="modalRef.hide()">Close</button>
+        </div>
+   
+    </div>
+</ng-template>
+
+
+
+
+
+
+

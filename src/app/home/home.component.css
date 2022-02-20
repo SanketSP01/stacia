@@ -1,0 +1,156 @@
+.nav{
+    top: 100px;
+/* left: 204px;
+right: 204px; */
+/* width: 1513px; */
+height: 80px;
+/* UI Properties */
+background: #364C54 0% 0% no-repeat padding-box;
+border-radius: 21px;
+
+opacity: 1;
+}
+
+.nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    /* float: right; */
+    /* font-size: 18px; */
+  }
+  .nav > .nav-links > ul li a{
+    display: block;
+    /* padding: 0 10px; */
+    color: #fff;
+    /* line-height: 40px; */
+    /* font-size: 18px; */
+    text-decoration: none;
+
+  }
+  .nav > .nav-links > ul{
+    padding: 5px;
+    margin-top: 2px;
+    list-style: none;
+    position: relative;
+    
+  }
+  .nav > .nav-links > ul li{
+    display: inline-block;
+    padding: 0 10px;
+    
+  }
+
+  .nav > .nav-links > ul li a:hover{
+    background-color:#E7F8F1;
+    color: #000;
+    transform: scale(1.1);
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+     
+    
+     padding: 0px 0px 0px 0px;
+}
+
+.padright{
+  padding-left: 50px;
+  text-align: center;
+}
+
+.padtop{
+   padding-top: 10px;
+}
+
+
+
+  .rs{
+ top: 175px;
+  left: 301px;
+  width: 228px;
+  height: 30px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal bold 22px/22px Century Gothic;
+  letter-spacing: 0px;
+  color: #F9F9F9;
+  opacity: 1;}
+
+  .cs{
+    top: 175px;
+    left: 567px;
+    width: 228px;
+    height: 30px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal bold 22px/22px Century Gothic;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    opacity: 1;
+  }
+
+  .es{
+    top: 175px;
+    left: 871px;
+    width: 179px;
+    height: 82px;
+    text-align: center;
+    font: normal normal bold 22px/22px Century Gothic;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    opacity: 1;
+  }
+
+  .evc{
+    top: 175px;
+    left: 1163px;
+    width: 179px;
+    height: 82px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal bold 22px/22px Century Gothic;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    opacity: 1;
+  }
+
+  .gp{
+    top: 175px;
+    left: 1410px;
+    width: 179px;
+    height: 82px;
+    text-align: center;
+    font: normal normal bold 22px/22px Century Gothic;
+    letter-spacing: 0px;
+    color: #364C54;
+    opacity: 1;
+  }
+
+  .arrow1{
+    top: 192px;
+    left: 244px;
+    width: 19px;
+    height: 24px;
+    transform: matrix(0, -1, 1, 0, 0, 0);
+    background: #E7F8F1 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+
+  .arrow{
+    display: block;
+    width: 0px;
+    height: 0px;
+    border:20px solid transparent;
+    /* transform: matrix(0, -1, 1, 0, 0, 0); */
+    background: #E7F8F1 0% 0% no-repeat padding-box;
+    opacity: 1; 
+    
+  }
+  .arrow.arrow-left{
+    border-right-color: #E7F8F1;
+    border-left-width: 0px;
+  }
+  .arrow.arrow-right{
+    border-left-color: #E7F8F1;
+    border-right-width: 0px;
+  }
